@@ -43,7 +43,7 @@ const JobPostView = () => {
             </CardHeader>
             <CardContent>
               <div className="p-4 bg-neutral-50 rounded-md">
-                <p className="font-medium">바이브컨퍼런스 올솔 MVP 제작</p>
+                <p className="font-medium">바이브코딩으로 만드는 MVP 제작</p>
               </div>
             </CardContent>
           </Card>
@@ -76,7 +76,7 @@ const JobPostView = () => {
             </CardHeader>
             <CardContent>
               <div className="p-4 bg-neutral-50 rounded-md">
-                <p className="font-medium">바이브컨퍼런스 올솔 MVP 제작</p>
+                <p className="font-medium">바이브코딩으로 만드는 MVP 제작</p>
               </div>
             </CardContent>
           </Card>

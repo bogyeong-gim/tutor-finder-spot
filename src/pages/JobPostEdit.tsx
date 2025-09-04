@@ -15,8 +15,8 @@ const JobPostEdit = () => {
   const navigate = useNavigate();
   
   const [formData, setFormData] = useState({
-    title: "바이브컨퍼런스 올솔 MVP 제작",
-    subject: "바이브컨퍼런스 올솔 MVP 제작",
+    title: "바이브코딩으로 만드는 MVP 제작",
+    subject: "바이브코딩으로 만드는 MVP 제작",
     format: "온라인",
     startDate: "2025-09-18",
     endDate: "2025-09-23",

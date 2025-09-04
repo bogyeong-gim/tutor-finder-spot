@@ -12,10 +12,10 @@ const Header = () => {
           
           <nav className="flex items-center space-x-6">
             <Button variant="ghost" className="text-white hover:bg-white/10 hover:text-white">
-              강서 찾기
+              강사 찾기
             </Button>
             <Button variant="ghost" className="text-white hover:bg-white/10 hover:text-white">
-              강구 목록
+              강구 등록
             </Button>
           </nav>
         </div>

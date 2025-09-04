@@ -24,8 +24,8 @@ const Index = () => {
           <JobPostCard
             id="1"
             location="서울"
-            subject="인공지능 AI ChatGPT"
-            title="활용 과정 모집 공고"
+            subject="바이브코딩으로 만드는"
+            title="MVP 제작"
             tag="생성형 AI"
             isActive={true}
           />
