@@ -22,6 +22,7 @@ const Index = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <JobPostCard
+            id="1"
             location="서울"
             subject="인공지능 AI ChatGPT"
             title="활용 과정 모집 공고"
@@ -31,6 +32,7 @@ const Index = () => {
           
           {/* Additional sample cards for demonstration */}
           <JobPostCard
+            id="2"
             location="부산"
             subject="웹 개발"
             title="프론트엔드 강의 모집"
@@ -39,6 +41,7 @@ const Index = () => {
           />
           
           <JobPostCard
+            id="3"
             location="대전"
             subject="데이터 분석"
             title="Python 기초 과정"

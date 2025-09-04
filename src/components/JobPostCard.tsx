@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useNavigate } from "react-router-dom";
 
 interface JobPostCardProps {
+  id: string;
   title: string;
   location: string;
   subject: string;
@@ -11,12 +13,14 @@ interface JobPostCardProps {
 }
 
 const JobPostCard = ({ 
+  id,
   title, 
   location, 
   subject, 
   tag, 
   isActive = false 
 }: JobPostCardProps) => {
+  const navigate = useNavigate();
   return (
     <Card className="w-full max-w-sm border-border bg-card">
       <CardHeader className="pb-3">
@@ -37,6 +41,7 @@ const JobPostCard = ({
             variant="outline" 
             size="sm"
             className="border-border text-neutral-700 hover:bg-neutral-50"
+            onClick={() => navigate(`/job-post/${id}`)}
           >
             공고 보기
           </Button>
@@ -44,6 +49,7 @@ const JobPostCard = ({
             variant="outline" 
             size="sm"
             className="border-border text-neutral-700 hover:bg-neutral-50"
+            onClick={() => navigate(`/job-post/${id}/edit`)}
           >
             공고 수정
           </Button>
@@ -52,7 +58,7 @@ const JobPostCard = ({
             size="sm"
             className="border-border text-neutral-700 hover:bg-neutral-50"
           >
-            발표 제안 확인
+            받은 제안 확인
           </Button>
         </div>
       </CardContent>
