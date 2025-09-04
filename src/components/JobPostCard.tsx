@@ -57,6 +57,7 @@ const JobPostCard = ({
             variant="outline" 
             size="sm"
             className="border-border text-neutral-700 hover:bg-neutral-50"
+            onClick={() => navigate(`/job-post/${id}/proposals`)}
           >
             받은 제안 확인
           </Button>

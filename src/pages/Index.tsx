@@ -11,7 +11,7 @@ const Index = () => {
       
       <main className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-semibold text-foreground">진행중인 공고</h2>
+          <h2 className="text-2xl font-semibold text-foreground">모집중인 공고</h2>
           <Button 
             variant="outline"
             className="border-border text-neutral-700 hover:bg-neutral-50"
